@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Week 11 – E-Commerce Microservices
 
 This project demonstrates a simple microservices architecture for an e-commerce platform.
@@ -21,3 +22,6 @@ This project demonstrates a simple microservices architecture for an e-commerce 
 * User Service
 * Inventory Service
 * Notification Service
+=======
+# week11-ecommerce-microservices
+>>>>>>> 29b74eccf019fa29a314c8573b401b1000869486
