@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+
+  discovery-server:
+    image: openjdk:17
+    container_name: discovery-server
+    ports:
+      - "8761:8761"
+
+  api-gateway:
+    image: openjdk:17
+    container_name: api-gateway
+    ports:
+      - "8080:8080"
+
+  kafka:
+    image: bitnami/kafka:latest
+    ports:
+      - "9092:9092"
+
+  zookeeper:
+    image: bitnami/zookeeper:latest
+    ports:
+      - "2181:2181"
+
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - "9411:9411"
