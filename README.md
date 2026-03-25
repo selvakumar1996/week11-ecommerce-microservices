@@ -1,27 +1,58 @@
-<<<<<<< HEAD
-# Week 11 – E-Commerce Microservices
+# E-Commerce Microservices Project
 
-This project demonstrates a simple microservices architecture for an e-commerce platform.
+## 📌 Overview
 
-## Technologies Used
+This project demonstrates a basic microservices architecture using Spring Boot and Spring Cloud.
 
-* Spring Boot Microservices
+## 🧩 Services
+
+* **Service Discovery (Eureka Server)**
+* **Inventory Service**
+* **Order Service**
+* **API Gateway**
+
+## 🔄 Architecture Flow
+
+Client → API Gateway → Order Service → Inventory Service → Response
+
+## ⚙️ Technologies Used
+
+* Java 21
+* Spring Boot 3.2.5
+* Spring Cloud 2023.0.1
+* Eureka Server
 * Spring Cloud Gateway
-* Service Discovery (Eureka)
-* Apache Kafka
-* Docker
-* Kubernetes
-* ELK Stack
+* REST APIs
 
-## Services
+## 🌐 API Endpoints
 
-* API Gateway
-* Product Service
-* Order Service
+### Inventory Service
+
+http://localhost:8080/test
+
+### Order Service
+
+http://localhost:8081/order
+
+### API Gateway
+
+http://localhost:8085/order/order
+
+## ✅ Features
+
+* Microservices architecture
+* Service discovery using Eureka
+* API Gateway routing
+* Inter-service communication using RestTemplate
+
+## 🚀 Future Enhancements
+
 * Payment Service
-* User Service
-* Inventory Service
 * Notification Service
-=======
-# week11-ecommerce-microservices
->>>>>>> 29b74eccf019fa29a314c8573b401b1000869486
+* Config Server
+* Kafka integration
+* Docker & Kubernetes deployment
+
+## 👨‍💻 Author
+
+Selva Kumar
